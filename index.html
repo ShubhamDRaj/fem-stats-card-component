@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Shubham - Stats card component</title>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <main>
+    <section class="card flex-group wrapper">
+      <div class="img-container">
+        <picture>
+          <source media="(min-width: 48em)" srcset="/images/image-header-desktop.jpg">
+          <img src="/images/image-header-mobile.jpg" alt="A group of 3 office employees working together." class="card-img">
+        </picture>
+      </div>
+
+      <div class="card-content grid-flow">
+        <h1 class="card-heading text-neutral-300">Get <span class="text-accent">insights</span> that help your business grow.</h1>
+        <p class="card-description text-neutral-500">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="card-insights flex-group">
+          <div>
+            <h2 class="card-insights-heading text-neutral-300">10k+</h2>
+            <p class="text-uppercase text-neutral-800 ff-secondary">companies</p>
+          </div>
+          <div>
+            <h2 class="card-insights-heading text-uppercase text-neutral-300">314</h2>
+            <p class="text-uppercase text-neutral-800 ff-secondary">templates</p>
+          </div>
+          <div>
+            <h2 class="card-insights-heading text-uppercase text-neutral-300">12m+</h2>
+            <p class="text-uppercase text-neutral-800 ff-secondary">queries</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

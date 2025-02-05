@@ -186,7 +186,7 @@ body {
     .card-content {
         flex-basis: 560px;
         padding-block: 4.5rem 3.875rem;
-        padding-inline: 4.375rem;
+        padding-inline: 4.375rem 7.25rem;
     }
 
     .card-heading {
@@ -195,5 +195,6 @@ body {
 
     .card-insights {
         margin-block-start: 3rem;
+        margin-inline-end: 1.75rem;
     }
 }
